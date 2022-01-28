@@ -1,0 +1,69 @@
+Info 0    [22:35:25.512] Starting TS Server
+Info 1    [22:35:25.514] Version: 4.3.4
+Info 2    [22:35:25.514] Arguments: C:\nodejs\node.exe c:\lsp\npm\typescript\node_modules\typescript\bin\tsserver --logFile y:\charicha_software_challenge\.log\tsserver.log --logVerbosity info --cancellationPipeName C:\Users\void\AppData\Local\Temp\55d3a66ec148dec34351844fc83d38b6\tscancellation*
+Info 3    [22:35:25.514] Platform: win32 NodeVersion: 14 CaseSensitive: false
+Info 4    [22:35:25.514] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [22:35:25.537] Search path: y:/charicha_software_challenge
+Info 6    [22:35:25.538] For info: y:/charicha_software_challenge/s2d1.js :: No config files found.
+Info 7    [22:35:25.542] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 8    [22:35:26.844] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1301.8782000094652ms
+Info 9    [22:35:26.844] Project '/dev/null/inferredProject1*' (Inferred)
+Info 10   [22:35:26.845] 	Files (19)
+
+Info 11   [22:35:26.845] -----------------------------------------------
+Info 12   [22:35:28.091] Search path: y:/charicha_software_challenge
+Info 13   [22:35:28.091] For info: y:/charicha_software_challenge/s2d2.js :: No config files found.
+Info 14   [22:35:28.092] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 15   [22:35:28.116] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true Elapsed: 23.959700003266335ms
+Info 16   [22:35:28.116] Project '/dev/null/inferredProject2*' (Inferred)
+Info 17   [22:35:28.116] 	Files (19)
+
+Info 18   [22:35:28.116] -----------------------------------------------
+Info 19   [22:35:28.145] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 20   [22:35:28.165] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: false Elapsed: 20.140900000929832ms
+Info 21   [22:35:28.165] Different program with same set of files:: structureIsReused:: 2
+Info 22   [22:35:30.132] Search path: y:/charicha_software_challenge
+Info 23   [22:35:30.132] For info: y:/charicha_software_challenge/s2d3.js :: No config files found.
+Info 24   [22:35:30.133] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 25   [22:35:30.152] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 1 structureChanged: true Elapsed: 18.29220001399517ms
+Info 26   [22:35:30.152] Project '/dev/null/inferredProject3*' (Inferred)
+Info 27   [22:35:30.152] 	Files (19)
+
+Info 28   [22:35:30.152] -----------------------------------------------
+Info 29   [22:35:30.191] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 30   [22:35:30.207] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 2 structureChanged: false Elapsed: 16.322300001978874ms
+Info 31   [22:35:30.207] Different program with same set of files:: structureIsReused:: 2
+Info 32   [22:35:34.698] Search path: y:/charicha_software_challenge
+Info 33   [22:35:34.698] For info: y:/charicha_software_challenge/s2d4.js :: No config files found.
+Info 34   [22:35:34.699] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 35   [22:35:34.708] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 1 structureChanged: true Elapsed: 8.985100001096725ms
+Info 36   [22:35:34.708] Project '/dev/null/inferredProject4*' (Inferred)
+Info 37   [22:35:34.708] 	Files (19)
+
+Info 38   [22:35:34.708] -----------------------------------------------
+Info 39   [22:35:34.743] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 40   [22:35:34.752] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 2 structureChanged: false Elapsed: 8.865800008177757ms
+Info 41   [22:35:34.752] Different program with same set of files:: structureIsReused:: 2
+Info 42   [22:35:40.840] Search path: y:/charicha_software_challenge
+Info 43   [22:35:40.840] For info: y:/charicha_software_challenge/s2d5.js :: No config files found.
+Info 44   [22:35:40.841] Starting updateGraphWorker: Project: /dev/null/inferredProject5*
+Info 45   [22:35:40.849] Finishing updateGraphWorker: Project: /dev/null/inferredProject5* Version: 1 structureChanged: true Elapsed: 8.279899999499321ms
+Info 46   [22:35:40.849] Project '/dev/null/inferredProject5*' (Inferred)
+Info 47   [22:35:40.849] 	Files (19)
+
+Info 48   [22:35:40.849] -----------------------------------------------
+Info 49   [22:35:40.884] Starting updateGraphWorker: Project: /dev/null/inferredProject5*
+Info 50   [22:35:40.893] Finishing updateGraphWorker: Project: /dev/null/inferredProject5* Version: 2 structureChanged: false Elapsed: 9.370900005102158ms
+Info 51   [22:35:40.894] Different program with same set of files:: structureIsReused:: 2
+Info 52   [17:23:33.472] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 53   [17:23:33.482] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 3 structureChanged: false Elapsed: 10.405699998140335ms
+Info 54   [17:23:33.482] Different program with same set of files:: structureIsReused:: 2
+Info 55   [17:23:39.535] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 56   [17:23:39.544] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 4 structureChanged: false Elapsed: 8.318899989128113ms
+Info 57   [17:23:39.544] Different program with same set of files:: structureIsReused:: 2
+Info 58   [17:23:40.456] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 59   [17:23:40.466] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 5 structureChanged: false Elapsed: 9.148300021886826ms
+Info 60   [17:23:40.466] Different program with same set of files:: structureIsReused:: 2
+Info 61   [17:23:40.911] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 62   [17:23:40.925] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 6 structureChanged: false Elapsed: 13.3125ms
+Info 63   [17:23:40.925] Different program with same set of files:: structureIsReused:: 2

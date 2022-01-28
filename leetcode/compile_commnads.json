@@ -1,0 +1,7 @@
+[
+    {
+	"directory": "y:/leetcode",
+	"command": "clang++ 3.cpp -IC:/",
+	"file": "3.cpp"
+      }
+]

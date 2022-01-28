@@ -1,0 +1,71 @@
+[04:41:18.501] Global cache location 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3', safe file path 'c:/lsp/npm/typescript/node_modules/typescript/lib/typingsafelist.json', types map path c:/lsp/npm/typescript/node_modules/typescript/lib/typesmap.json
+[04:41:18.504] Processing cache location 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3'
+[04:41:18.510] Trying to find 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/package.json'...
+[04:41:18.542] Loaded content of 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.547"},"devDependencies":{"@types/async":"^3.2.6","@types/body-parser":"^1.19.0","@types/ejs":"^3.0.6","@types/eslint":"^7.2.13","@types/express":"^4.17.12","@types/glob":"^7.1.3","@types/js-yaml":"^4.0.1","@types/lodash":"^4.14.170","@types/merge-descriptors":"^1.0.1","@types/mocha":"^8.2.2","@types/node":"^15.12.4","@types/object-assign":"^4.0.30","@types/react":"^17.0.11","@types/react-dom":"^17.0.8","@types/scheduler":"^0.16.1","@types/serve-static":"^1.13.9","@types/shelljs":"^0.8.8","@types/sprintf":"^0.1.0","@types/vscode":"^1.57.0"}}
+[04:41:18.542] Loaded content of 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/package-lock.json'
+[04:41:18.575] Adding entry into typings cache: 'async' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/async/index.d.ts'
+[04:41:18.595] Adding entry into typings cache: 'body-parser' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/body-parser/index.d.ts'
+[04:41:18.609] Adding entry into typings cache: 'ejs' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/ejs/index.d.ts'
+[04:41:18.627] Adding entry into typings cache: 'eslint' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/eslint/index.d.ts'
+[04:41:18.645] Adding entry into typings cache: 'express' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/express/index.d.ts'
+[04:41:18.660] Adding entry into typings cache: 'glob' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/glob/index.d.ts'
+[04:41:18.675] Adding entry into typings cache: 'js-yaml' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/js-yaml/index.d.ts'
+[04:41:18.690] Adding entry into typings cache: 'lodash' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/lodash/index.d.ts'
+[04:41:18.705] Adding entry into typings cache: 'merge-descriptors' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/merge-descriptors/index.d.ts'
+[04:41:18.717] Adding entry into typings cache: 'mocha' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/mocha/index.d.ts'
+[04:41:18.736] Adding entry into typings cache: 'node' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/node/index.d.ts'
+[04:41:18.750] Adding entry into typings cache: 'object-assign' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/object-assign/index.d.ts'
+[04:41:18.769] Adding entry into typings cache: 'react' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/react/index.d.ts'
+[04:41:18.784] Adding entry into typings cache: 'react-dom' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/react-dom/index.d.ts'
+[04:41:18.797] Adding entry into typings cache: 'scheduler' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/scheduler/index.d.ts'
+[04:41:18.810] Adding entry into typings cache: 'serve-static' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/serve-static/index.d.ts'
+[04:41:18.824] Adding entry into typings cache: 'shelljs' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/shelljs/index.d.ts'
+[04:41:18.835] Adding entry into typings cache: 'sprintf' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/sprintf/index.d.ts'
+[04:41:18.847] Adding entry into typings cache: 'vscode' => 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/node_modules/@types/vscode/index.d.ts'
+[04:41:18.848] Finished processing cache location 'C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3'
+[04:41:18.849] Process id: 2148
+[04:41:18.849] NPM location: C:\nodejs\npm (explicit '--npmLocation' not  provided)
+[04:41:18.849] validateDefaultNpmLocation: false
+[04:41:18.850] Npm config file: C:/Users/void/AppData/Local/Microsoft/TypeScript/4.3/package.json
+[04:41:18.850] Updating types-registry npm package...
+[04:41:18.851] Exec: C:\nodejs\npm install --ignore-scripts types-registry@latest
+[04:41:28.721]     Succeeded. stdout:
+    + types-registry@0.1.547
+    updated 1 package and audited 33 packages in 2.139s
+found 0 vulnerabilities
+
+
+[04:41:28.722] Updated types-registry npm package
+[04:41:28.752] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es5.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2016.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.dom.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.dom.iterable.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.scripthost.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.core.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.collection.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.generator.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.iterable.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.promise.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.proxy.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.reflect.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.symbol.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2016.array.include.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2016.full.d.ts","y:/charicha_software_challenge/s2d2.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"y:/charicha_software_challenge","kind":"discover"}
+[04:41:28.785] Loaded safelist from types map file 'c:/lsp/npm/typescript/node_modules/typescript/lib/typesmap.json'
+[04:41:28.786] Explicitly included types: []
+[04:41:28.788] Inferred typings from unresolved imports: []
+[04:41:28.789] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["y:/charicha_software_challenge/bower_components","y:/charicha_software_challenge/node_modules"]}
+[04:41:28.789] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["y:/charicha_software_challenge/bower_components","y:/charicha_software_challenge/node_modules"]}
+[04:41:28.790] DirectoryWatcher:: Added:: WatchInfo: y:/charicha_software_challenge/bower_components
+[04:41:28.792] DirectoryWatcher:: Added:: WatchInfo: y:/charicha_software_challenge/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[04:41:28.794] Elapsed:: 2.010800000280142ms DirectoryWatcher:: Added:: WatchInfo: y:/charicha_software_challenge/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[04:41:28.795] DirectoryWatcher:: Added:: WatchInfo: y:/charicha_software_challenge/node_modules
+[04:41:28.795] DirectoryWatcher:: Added:: WatchInfo: y:/charicha_software_challenge/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[04:41:28.795] Elapsed:: 0.19629999995231628ms DirectoryWatcher:: Added:: WatchInfo: y:/charicha_software_challenge/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[04:41:28.796] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[04:41:28.797] Response has been sent.
+[04:41:28.797] No new typings were requested as a result of typings discovery
+[05:02:47.278] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es5.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2016.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.dom.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.dom.iterable.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.scripthost.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.core.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.collection.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.generator.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.iterable.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.promise.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.proxy.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.reflect.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.symbol.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2016.array.include.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2016.full.d.ts","y:/charicha_software_challenge/s2d2.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"projectRootPath":"y:/charicha_software_challenge","kind":"discover"}
+[05:02:47.279] Explicitly included types: []
+[05:02:47.280] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["y:/charicha_software_challenge/bower_components","y:/charicha_software_challenge/node_modules"]}
+[05:02:47.281] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["y:/charicha_software_challenge/bower_components","y:/charicha_software_challenge/node_modules"]}
+[05:02:47.281] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"kind":"action::set"}
+[05:02:47.282] Response has been sent.
+[05:02:47.282] No new typings were requested as a result of typings discovery
+[05:28:08.301] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es5.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2016.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.dom.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.dom.iterable.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.scripthost.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.core.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.collection.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.generator.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.iterable.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.promise.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.proxy.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.reflect.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.symbol.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2016.array.include.d.ts","c:/lsp/npm/typescript/node_modules/typescript/lib/lib.es2016.full.d.ts","y:/charicha_software_challenge/s2d3.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"y:/charicha_software_challenge","kind":"discover"}
+[05:28:08.301] Explicitly included types: []
+[05:28:08.302] Inferred typings from unresolved imports: []
+[05:28:08.303] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["y:/charicha_software_challenge/bower_components","y:/charicha_software_challenge/node_modules"]}
+[05:28:08.303] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["y:/charicha_software_challenge/bower_components","y:/charicha_software_challenge/node_modules"]}
+[05:28:08.303] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[05:28:08.304] Response has been sent.
+[05:28:08.304] No new typings were requested as a result of typings discovery

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Day 1 Challenge </title>
+    </head>
+    <body>
+
+	<pre>
+	    Remove all exclamation marks from sentence but ensure a exclamation mark at the end of string. For a beginner kata, you can assume that the input data is always a non empty string, no need to verify it.
+
+	    Examples
+	    remove("Hi!") === "Hi!"
+	    remove("Hi!!!") === "Hi!"
+	    remove("!Hi") === "Hi!"
+	    remove("!Hi!") === "Hi!"
+	    remove("Hi! Hi!") === "Hi Hi!"
+	    remove("Hi") === "Hi!"	    
+
+	</pre>
+
+	<script type="text/javascript" >
+
+	 var str = "Hi!!!! Hi!";
+
+	 console.log(remove(str));
+
+	 function remove(s){
+	     var s = s.split("");
+	     var res = new Array();
+
+ 	     for(var i = 0; i < s.length; i++){
+		 if(s[i] != '!') res.push(s[i]);
+ 	     }
+	     
+	     return res.join("") + '!';
+
+	     /* return s.match(/[^!]/g).join("") + '!'; */ //short method
+	 }
+	 
+
+	 
+	</script>
+
+    </body>
+</html>

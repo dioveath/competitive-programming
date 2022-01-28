@@ -1,0 +1,20 @@
+<html>
+    <head>
+	<title>Day 3</title>
+    </head>
+    <body>
+	<h1>Day 3</h1>
+
+	<script>
+
+	 const flip=(d, a)=> { 
+	     a = a.sort((a, b) => a - b);
+	     return d == 'R' ? a : a.reverse();
+	 }
+
+	 console.log(flip('R', [13, 2, 4, 7, 93]));
+	 console.log(flip('L', [1, 4, 5, 3, 5]));
+
+	</script>
+    </body>
+</html>

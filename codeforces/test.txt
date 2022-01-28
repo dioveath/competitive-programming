@@ -1,0 +1,6 @@
+Denoting this remainder as a mod b, the algorithm replaces
+(a, b) by (b, a mod b) repeatedly until the pair is (d, 0),
+where d is the greatest common divisor.
+
+For example, to compute gcd(48,18), the computation is as follows:
+

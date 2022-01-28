@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title> </title>
+    </head>
+    <body></body>
+    <script>
+
+     function crusoe(n, d, ang, distmult, angmult) {
+	 var torad = Math.PI/180;    
+	 var x=0,y=0;
+	 for(var i = 0; i < n; i++){
+	     x += Math.cos(ang * torad) * d;
+	     y += Math.sin(ang * torad) * d;
+	     d *= distmult;
+	     ang *= angmult;
+	 }
+	 return [x, y];
+     }
+
+    </script>
+</html>
