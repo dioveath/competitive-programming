@@ -9,10 +9,14 @@ class Solution {
 public:
   int lengthOfLongestSubstring(string s){
     vector<char> prev;
-    int ll = 0;
     for(int i = 0; i < s.length(); i++){
+      if(prev.exists(s[i])) {
+	prev.empty();
+      } else {
+	prev.push(s[i]);
+      }
     }
-    return ll;
+    return prev.size();
   }
 };
 
