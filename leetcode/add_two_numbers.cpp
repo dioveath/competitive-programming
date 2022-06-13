@@ -37,7 +37,6 @@ return new ListNode(l1 ->val + l2->val, addTwoNumbers(l1->next, l2->next));
 // 0 <= Node.val <= 9
 // It is guaranteed that the list represents a number that does not have leading zeros.
 
-
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,30 +50,25 @@ return new ListNode(l1 ->val + l2->val, addTwoNumbers(l1->next, l2->next));
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-      return add(l1, l2, 0);
+        return addTwoWithCarry(l1, l2, 0);
     }
     
-    ListNode* add(ListNode* l1, ListNode* l2, int carry){
-        if(l1 == nullptr && l2 == nullptr) return nullptr;
-        int newValue = 0;
-        if(l1 == nullptr)
-            newValue = ((l2->val + carry)); 
-        else if(l2 == nullptr)
-            newValue = ((l1->val + carry)); 
-        else 
-            newValue = ((l1->val + l2->val + carry));
+    ListNode* addTwoWithCarry(ListNode* l1, ListNode* l2, int carry){
+        if(l1 == nullptr && l2 == nullptr) {
+            if(carry)                 
+                return new ListNode(carry);
+            return nullptr;
+        }
+        int l1Val = l1 != nullptr ? l1->val : 0;
+        int l2Val = l2 != nullptr ? l2->val : 0;
         
-        ListNode* l3 = new ListNode(newValue % 10);
+        int sum = l1Val + l2Val + carry;
+        int newVal = sum % 10;
+        int newCarry = sum/10;
         
-        if(l2->next == nullptr && l1->next == nullptr) return l3;
-        if(l2->next == nullptr)
-            l3->next = add(l1->next,  new ListNode(0 + (l1->val + l2->val) > 9 ? 1 : 0), carry);
-        if(l1->next == nullptr)
-            l3->next = add(l2->next, new ListNode(0 + (l1->val + l2->val) > 9 ? 1 : 0), carry);
-        if(l2->next != nullptr && l1->next != nullptr) 
-            l3->next = add(l1->next, l2->next, (newValue) / 10);
-        return l3;        
+        return new ListNode(newVal, addTwoWithCarry(l1 != nullptr ? l1->next : nullptr, l2 != nullptr ? l2->next : nullptr, newCarry));
     }
 };
+
 
 
