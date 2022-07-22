@@ -19,21 +19,43 @@
 // pos is -1 or a valid index in the linked-list.
 
 
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
 class Solution {
 public:
-    int firstUniqChar(string s) {
-        unordered_map<char, int> m;
-        queue<pair<char, int>> q;
-        for(int i = 0; i < s.length(); i++){
-            m[s[i]]++;
-            q.push({s[i], i});
+
+  /* Floyd Cycle Detection Algorithm/ Hare-Tortoise Algorithm */
+    bool hasCycle(ListNode *head) {
+        if(head == nullptr || head->next == nullptr) return false; 
+        ListNode* fast = head; ListNode* slow = head;
+        while(fast->next && fast->next->next && slow->next){
+            fast = fast->next->next;
+            slow = slow->next;
+            if(fast == slow) return true;
         }
-        
-        while(!q.empty()){
-            if(m[q.front().first] == 1) return q.front().second;
-            q.pop();
-        }
-        
-        return -1;
+        return false;
     }
+
+  /* Hasmap technique */
+    bool hasCycle(ListNode *head) {
+        if(head == nullptr) return false; 
+        unordered_map<ListNode*, int> map;
+        while(head->next){
+            if(map[head] == 0)
+                map[head]++;
+            else 
+                return true;
+            head = head->next;
+        }
+        return false;
+    }  
+
+  
 };
