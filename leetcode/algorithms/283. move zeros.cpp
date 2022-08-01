@@ -1,4 +1,4 @@
-// 283. Move Zeroes
+// 283. Move Zero
 // Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
 // Note that you must do this in-place without making a copy of the array.
@@ -37,4 +37,21 @@ public:
             }
         }
     }
+
 };
+
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        for(int i = 0, j = 0; i < nums.size(); i++){
+	  if(nums[i] != 0) {
+	    nums[j] = nums[i];
+	    if(i > j) nums[i] = 0;
+	    j++;
+	  }
+        }
+    }
+
+};
+
+
