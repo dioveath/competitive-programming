@@ -22,26 +22,46 @@
 // s consists of English letters, digits, symbols and spaces.
 
 
-
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        
         unordered_map<char, int> m;
         int max = 0;
-        for(int i = 0, j = 0; i < s.length(); i++) {
+        int i = 0, j = 0;
+        while(i < s.length()){
             if(m[s[i]]) {
-                m.clear();
-                i = j++;
+                m[s[j]]--;
+                if(m[s[j]] == 0) m.erase(s[j]);
+                j++;
             } else {
-                m[s[i]]++;
-                j = i - (m.size() - 1);
-            }
-            
+                m[s[i++]]++;
+            }        
+                        
             if(m.size() > max) max = m.size();
         }
         
         return max;
     }
 };
+
+
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int m[128] = {0};
+        int max_len = 0;
+        int i = 0, j = 0;
+        while(i < s.length()){
+            if(m[128 - s[i]]) {
+                max_len = max(max_len, (i - j));
+                while(j < m[128 - s[i]]) m[128 - s[j++]] = 0;
+            }
+            m[128 - s[i]] = i+1;
+            i++;            
+        }
+        
+        return max(max_len, i - j);
+    }
+};
+
 
