@@ -31,3 +31,14 @@ public:
         else return false;
     }
 };
+
+
+// Bit Manipulation Solution
+class Solution {
+public:
+    bool isPowerOfTwo(long int n) {
+        if(n == 0) return 0;
+        if((n & (n-1)) == 0) return 1;
+        return 0;
+    }
+};
