@@ -27,7 +27,8 @@ public:
     bool isIsomorphic(string s, string t) {
         unordered_map<char, char> hm, hm2;
         for(int i = 0; i < t.length(); i++){            
-            if((hm[s[i]] && hm[s[i]] != t[i]) || (hm2[t[i]] && hm2[t[i]] != s[i])) return false;
+            if((hm[s[i]] && hm[s[i]] != t[i]) ||
+	       (hm2[t[i]] && hm2[t[i]] != s[i])) return false;
             hm[s[i]] = t[i];
             hm2[t[i]] = s[i];
         }
