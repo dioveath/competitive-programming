@@ -21,5 +21,11 @@ int main(){
     while(i+1 < n && a[i] == a[i+1]) i++;
   }
 
+  // while(a.size()){
+  //   ans += a.size();
+  //   int t = a[0];
+  //   while(a.size() && t == a[0]) a.erase(a.begin());
+  // }
+
   cout << ans << endl;
 }
