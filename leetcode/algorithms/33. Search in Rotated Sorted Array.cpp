@@ -42,15 +42,11 @@ public:
             if(nums[r] == target) return r;
             
             if(nums[l] < nums[m]){
-                if(target > nums[l] && target < nums[m])
-                    r = m-1;
-                else 
-                    l = m+1;
+                if(target > nums[l] && target < nums[m]) r = m-1;
+                else l = m+1;
             } else if(nums[r] > nums[m]){
-                if(target > nums[m] && target < nums[r])
-                    l = m+1;
-                else 
-                    r = m-1;
+                if(target > nums[m] && target < nums[r]) l = m+1;
+                else r = m-1;
             } else return -1;
                         
         }
