@@ -62,3 +62,37 @@ public:
         return res;
     }
 };
+
+
+
+class Solution {
+public:
+    vector<int> findAnagrams(string s, string p) {
+        if(s.length() < p.size()) return {};
+        int freq[26] = {0};
+        int win[26] = {0};
+        vector<int> res;        
+        for(int i = 0; i < p.length(); i++) {
+            freq['z'-p[i]]++;
+            win['z'-s[i]]++;
+        }
+        
+        int k = 0;
+        while(k < 26 && freq[k] == win[k]) k++;
+        if(k == 26) res.push_back(0);
+        
+        int i = p.length();        
+        while(i < s.length()) { 
+            win['z'-s[i-p.length()]]--;
+            win['z'-s[i]]++;
+
+            int k = 0;
+            while(k < 26 && freq[k] == win[k]) k++;
+            if(k == 26) res.push_back(i-p.length()+1);
+            
+            i++;
+        }
+        
+        return res;
+    }
+};
