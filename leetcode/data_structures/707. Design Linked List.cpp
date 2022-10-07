@@ -44,7 +44,7 @@ public:
         int val; 
         Node* next;
         Node() : val(0) {}
-        Node(int x) : val(x) {};
+        Node(int x) : val(x), next(nullptr) { };
         Node(int x, Node* n) : val(x), next(n) {}
     };
     
@@ -59,7 +59,7 @@ public:
         if(index > curr_idx) return -1;
         int i = index;
         Node* nd = head;
-        while(nd && i-- > 0) nd = nd->next;
+        while(nd && nd->next && i-- > 0) nd = nd->next;
         return nd->val;
     }
     
@@ -71,39 +71,43 @@ public:
     }
     
     void addAtTail(int val) {
-        int i = curr_idx;
         Node* nd = head;
-        while(nd && nd->next && i-- > 0) nd = nd->next;
+        while(nd && nd->next) nd = nd->next;
         if(!nd) head = new Node(val);
         else nd->next = new Node(val);
         curr_idx++;
     }
     
     void addAtIndex(int index, int val) {
-        if(index > curr_idx) return;
+        if(index < 0 || index > curr_idx+1) return;
         int i = index;
+        
         Node* sentinel = new Node(-1);
         sentinel->next = head;
         
         Node* nd = sentinel;
-        while(nd && i-- >= 1) nd = nd->next;
-        Node* new_node = new Node(val);
-        new_node->next = nd->next;
-        nd->next = new_node;
+        while(nd && --i >= 0) nd = nd->next;
+        if(!nd) head = new Node(val);
+        else { 
+            Node* new_node = new Node(val);
+            new_node->next = nd->next;
+            nd->next = new_node;        
+        }
         
         head = sentinel->next;
         curr_idx++;
     }
     
     void deleteAtIndex(int index) {
-        if(index > curr_idx) return;
+        if(index < 0 || index > curr_idx) return;
         int i = index;
         Node* sentinel = new Node(-1);
         sentinel->next = head;
         
         Node* nd = sentinel;
-        while(nd && i-- > 1) nd = nd->next;
+        while(nd && --i >= 0) nd = nd->next;
         nd->next = nd->next->next;
+
         head = sentinel->next;
         curr_idx--;
     }
