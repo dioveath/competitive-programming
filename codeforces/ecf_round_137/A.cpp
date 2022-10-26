@@ -4,20 +4,24 @@ using namespace std;
 
 
 inline int fact(int n) {
-  if(n == 1) return 1;
-  return n * fact(n-1);
-} 
+  int fact = 1;
+  for(int i = 2; i <= n; i++) fact *= i;
+  return fact;
+}
+
+inline int comb(int n, int k){
+  return fact(n) / (fact(k) * fact(n-k));
+}
 
 
 void solve(int t){
   int n;
   cin >> n;
 
-  vector<int> a(n);
+  int a[n];
   for(int i = 0; i < n; i++) cin >> a[i];
 
-  // int ans = 
-  cout << ans << endl;
+  cout << comb(10-n, 2) * comb(4, 2) << endl;
 }
 
 
