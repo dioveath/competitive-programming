@@ -25,11 +25,16 @@
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
-        unordered_map<int, int> umap;
+        unordered_map<int, int> umap, count_map;
         for(int i = 0; i < arr.size(); i++){
-            if(umap[arr[i]] != 0) return false;
-
+            umap[arr[i]]++;
         }
+
+        for(auto cm : umap){
+            if(count_map[cm.second]) return false;
+            count_map[cm.second]++;
+        }
+
         return true;
     }
 };
