@@ -6,7 +6,6 @@
 // Return the length of the longest cycle in the graph. If no cycle exists, return -1.
 
 // A cycle is a path that starts and ends at the same node.
-
  
 
 // Example 1:
